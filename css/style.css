@@ -468,7 +468,7 @@ button i {
     .filter {
         grid-template-rows: 35px 70px;
         grid-template-columns: 25% 25% 25% 25% 0%;
-        width: 90%;
+        width: 100%;
     }
 
     .l-filter {
@@ -551,7 +551,7 @@ button i {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767px) {
     .form {
-        padding: 0 20px;
+        padding: 0px 0px;
     }
 
     .find-heberge, .in-city {
@@ -559,8 +559,12 @@ button i {
     }
 
     .main-container {
-        max-width: 768px;
-        padding: 0 0;
+        padding: 0px;
+    }
+
+    .main-container-deux {
+        max-width: 767px;
+        padding: 0 20px;
     }
 
     nav {
@@ -658,14 +662,15 @@ button i {
 
     .filter {
         grid-template-rows: 10% 33% 33%;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 48.5% 48.5%;
         gap: 15px;
+        justify-content: center;
     }
 
     .l-filter {
         grid-column: 1;
         grid-row: 1;
-        margin-left: 10px;
+        
     }
 
     .button-one {
@@ -699,6 +704,7 @@ button i {
 
     .hebergements-and-populaires section {
         border-radius: 0;
+        padding: 0 0;
 
     }
 
@@ -721,6 +727,11 @@ button i {
         justify-content: center;
     }
 
+    .section-title {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
     .populaires-cards {
         flex-direction: column;
     }
@@ -734,6 +745,10 @@ button i {
         margin: 20px 0 20px 0px;
     }
 
+    .afficher-plus {
+        padding-left: 20px;
+    }
+
     main > .activity-to-marseille {
         display: flex;
         justify-content: center;
@@ -741,12 +756,20 @@ button i {
 
     .activity-to-marseille {
         width: 100%;
-        align-items: center;
         margin-top: 50px;
+    }
+
+    .ash {
+        padding-left: 20px;
+    }
+
+    .ash-trois {
+        padding-left: 20px;
     }
 
     .article-activity {
         margin: 20px 0 20px 0;
+
     }
 
     .quatre-card {
@@ -757,7 +780,7 @@ button i {
     }
 
     .four-card {
-        width: 92%;
+        width: 100%;
         grid-template-columns: 100%;
         grid-template-rows: 25% 25% 25% 25%;
         flex-direction: column;
@@ -804,7 +827,7 @@ button i {
     .infos-footer {
         flex-direction: column;
         justify-content: center;
-        padding-left: 5%;
+        padding-left: 20px;
         width: 95%;
     }
 
