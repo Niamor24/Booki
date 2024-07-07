@@ -605,10 +605,6 @@ button i {
     .active-page {
         color: black;
     }
-    
-    .active-page-two{
-        color: none;
-    }
 
     .div-hebergements {
         border-bottom: solid 3px #F2F2F2;
