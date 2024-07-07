@@ -627,10 +627,7 @@ button i {
     .div-activites:hover {
         border-bottom: solid 3px #0065FC;
         border-top: transparent;
-    }
-
-    .active-page {
-        color: black;
+        color: #0065FC;    
     }
 
     .active-page-two:hover {
@@ -638,6 +635,7 @@ button i {
     }
 
     .active-page:hover {
+        color: #0065FC;
         border-top: none;
     }
 
