@@ -1,4 +1,8 @@
 /****** General ***********/
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -612,6 +616,7 @@ button i {
 
     .div-hebergements:hover {
         border-bottom: solid 3px #0065FC;
+        border-top: transparent;
     }
 
     .div-activites {
@@ -621,6 +626,7 @@ button i {
 
     .div-activites:hover {
         border-bottom: solid 3px #0065FC;
+        border-top: transparent;
     }
 
     .active-page {
