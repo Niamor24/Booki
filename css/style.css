@@ -205,12 +205,16 @@ nav {
     justify-content: space-around;
 }
 
-.active-page:hover {
+.div-hebergements:hover {
     border-top: solid 3px #0065FC;
     color: #0065FC;
 }
 
-.active-page-two:hover {
+.ash-trois {
+    margin-top: 0px;
+}
+
+.div-activites:hover {
     border-top: solid 3px #0065FC;
     color: #0065FC;
 }
@@ -299,6 +303,7 @@ input {
 }
 
 .button.one {
+    display: flex;
     grid-column: 2;
     grid-row: 1;
 }
@@ -319,6 +324,9 @@ input {
 }
 
 .filter > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: auto;
     border-radius: 25px;
@@ -663,7 +671,8 @@ button i {
     .filter {
         grid-template-rows: 10% 33% 33%;
         grid-template-columns: 48.5% 48.5%;
-        gap: 15px;
+        row-gap: 15px;
+        column-gap: 15px;
         justify-content: center;
     }
 
@@ -673,22 +682,43 @@ button i {
         
     }
 
+    .filter > button {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
     .button-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column: 1;
         grid-row: 2;
     }
 
+    .button-one, .button-two, .button-three, .button-four > i{
+        margin-right: 5%;
+    }
+
     .button-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column: 2;
         grid-row: 2;
     }
 
     .button-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column: 1;
         grid-row: 3;
     }
 
     .button-four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column: 2;
         grid-row: 3;
     }
