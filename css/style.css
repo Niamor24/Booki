@@ -118,7 +118,7 @@ a {
 .card-title-deux {
     margin-top: 10px;
     margin-bottom: 4px;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .card-subtitle-deux {
@@ -337,7 +337,7 @@ input {
     border: solid 2px #D9D9D9;
     background-color: #fff;
     color: black;
-    font-size: 17px;
+    font-size: 81%;
     font-weight: 700;
     cursor: pointer;
     transition: ease-out 0.3s;
@@ -462,6 +462,11 @@ button i {
     width: 446px;
     background-color: #F2F2F2;
     padding-left: 20px;
+}
+
+.afficher-plus {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -780,6 +785,8 @@ button i {
 
     .afficher-plus {
         padding-left: 20px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
     main > .activity-to-marseille {
